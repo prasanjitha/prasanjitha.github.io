@@ -1,375 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="font-awesome.css">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal Portfolio Website 2022</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-   
-        <!-- Background circle start -->
-        <div class="bg-circle">
-            <div class="circle-1"></div>
-            <div class="circle-2"></div>
-            <div class="circle-3"></div>
-            <div class="circle-4"></div>
-        </div>
-        <!-- Background circle end -->
-    <!-- overlay start -->
-    <div class="overlay"></div>
-    <!-- overlay end -->
-    <div class="main ">
-        <!-- header start -->
-        <header class="header">
-            <div class="container">
-                <div class="row flex-end">
-                    <!-- <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button> -->
-                    <button type="button" class="nav-toggler">
-                        <span></span>
-                    </button>
-                    <nav class="nav">
-                        <div class="nav-inner">
-                            <ul>
-                                <li><a href="#home" class="nav-item link-item">Home</a></li>
-                                <li><a href="#about" class="nav-item link-item">about</a></li>
-                                <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
-                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <!-- header end -->
-        <section class="home-section align-item-center active" id="home">
-            <div class="container">
-                <div class="row align-item-center">
-                <div class="home-text">
-                        <p>Hello, I'm</p>
-                        <h1>Nirmal Prasanjith</h1>
-                        <h2>frontend web developer</h2>
-                        <a href="#about" class="btn link-item">more about me</a>
-                        <a href="#portfolio" class="btn link-item">profito</a>
-                </div>
-                        <div class="home-img">
-                           <div class="img-box">
-                            <img src="img/profile-img.png" alt="profile">
-                           </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- About section start -->
-        <section class="about-section sec-padding " id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="sec-title">
-                        <h2>about me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="about-img">
-                        <div class="img-box">
-                            <img src="img/about-img.png" alt="about img">
-                        </div>
-                    </div>
-                    <div class="about-text">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat veritatis molestiae minus, incidunt autem quasi, error possimus id ut dolor debitis magni sunt, iste at velit. Vitae eligendi accusamus quas adipisci cupiditate laboriosam doloribus tempora quos impedit, aliquam provident soluta velit saepe dolorem veritatis voluptate! Fugiat numquam quam quis repellat?
-                        </p>
-                        <h3>skills</h3>
-                        <div class="skills">
-                            <div class="skill-item">html</div>
-                            <div class="skill-item">css</div>
-                            <div class="skill-item">javascript</div>
-                            <div class="skill-item">typescript</div>
-                            <div class="skill-item">reactjs</div>
-                            <div class="skill-item">angular</div>
-                            <div class="skill-item">react native</div>
-                            <div class="skill-item">flutter</div>
-                            <div class="skill-item">mysql</div>
-                        </div>
-                        <div class="about-tabs">
-                            <button type="button" class="tab-items active" data-target="#education">eductation</button>
-                            <button type="button" class="tab-items" data-target="#experience">experience</button>
-                        </div>
-                        <!-- eduction start -->
-                        <div class="tab-content active" id="eduction">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">2018 -2023 </span>
-                                    <h4>Bsc(Hons) Information Technology - <span>University of Moratuwa</span></h4>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error vitae quis perferendis neque minima! Consequatur?</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2018 -2023 </span>
-                                    <h4>Bsc(Hons) Information Technology - <span>University of Moratuwa</span></h4>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error vitae quis perferendis neque minima! Consequatur?</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2018 -2023 </span>
-                                    <h4>Bsc(Hons) Information Technology - <span>University of Moratuwa</span></h4>
-                              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error vitae quis perferendis neque minima! Consequatur?</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- eduction end -->
-                        <!-- Experience start -->
-                        <div class="tab-content" id="experience">
-                            <div class="timeline">
-                                <div class="timeline-item">
-                                    <span class="date">2018 -2023</span>
-                                    <h4>web developer - <span>Panaceata (Private) Limited</span></h4>
-                               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis in magni nihil? Dolores, tenetur soluta.</p>
-                                </div>
-                                <div class="timeline-item">
-                                    <span class="date">2018 -2023</span>
-                                    <h4>web developer - <span>Panaceata (Private) Limited</span></h4>
-                               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis in magni nihil? Dolores, tenetur soluta.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Experience end-->
-                        <a href="cv.pdf" target="_blank" class="btn">download cv</a>
-                        <a href="#contact" class="btn link-item">contact me</a>
+	<!--------header---->
+	<header>
+		<a href="#" class="logo"><img src="img/logo.png"></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
 
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About section end -->
-        <!-- portfolio section start -->
-        <section class="portfolio-section sec-padding " id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="sec-title">
-                        <h2>recent work</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- porfolio item start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="img/1.jpg" alt="thum1">
-                        </div>
-                        <h3 class="portfolio-item-title">education course websites</h3>
-                    <button type="button" class="btn view-project-btn">view project</button>
-                    <div class="portfolio-item-details">
-                        <div class="description">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                            </p>
-                        </div>
-                        <div class="general-info">
-                            <ul>
-                                <li>Created - <span>4 Dec 2020</span></li>
-                                <li>Technologies used - <span>Html, Css</span></li>
-                                <li>Role - <span>Frontend</span></li>
-                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- porfolio item end -->
-                                        <!-- porfolio item start -->
-                                        <div class="portfolio-item">
-                                            <div class="portfolio-item-thumbnail">
-                                                <img src="img/2.jpg" alt="thum1">
-                                            </div>
-                                            <h3 class="portfolio-item-title">education course websites</h3>
-                                        <button type="button" class="btn view-project-btn">view project</button>
-                                        <div class="portfolio-item-details">
-                                            <div class="description">
-                                                <p>
-                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                                                </p>
-                                            </div>
-                                            <div class="general-info">
-                                                <ul>
-                                                    <li>Created - <span>4 Dec 2020</span></li>
-                                                    <li>Technologies used - <span>Html, Css</span></li>
-                                                    <li>Role - <span>Frontend</span></li>
-                                                    <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <!-- porfolio item end -->
-                                                            <!-- porfolio item start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="img/4.jpg" alt="thum1">
-                        </div>
-                        <h3 class="portfolio-item-title">education course websites</h3>
-                    <button type="button" class="btn view-project-btn">view project</button>
-                    <div class="portfolio-item-details">
-                        <div class="description">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                            </p>
-                        </div>
-                        <div class="general-info">
-                            <ul>
-                                <li>Created - <span>4 Dec 2020</span></li>
-                                <li>Technologies used - <span>Html, Css</span></li>
-                                <li>Role - <span>Frontend</span></li>
-                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- porfolio item end -->
-                    <!-- porfolio item start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="img/6.jpg" alt="thum1">
-                        </div>
-                        <h3 class="portfolio-item-title">education course websites</h3>
-                    <button type="button" class="btn view-project-btn">view project</button>
-                    <div class="portfolio-item-details">
-                        <div class="description">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                            </p>
-                        </div>
-                        <div class="general-info">
-                            <ul>
-                                <li>Created - <span>4 Dec 2020</span></li>
-                                <li>Technologies used - <span>Html, Css</span></li>
-                                <li>Role - <span>Frontend</span></li>
-                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- porfolio item end -->
-                                        <!-- porfolio item start -->
-                                        <div class="portfolio-item">
-                                            <div class="portfolio-item-thumbnail">
-                                                <img src="img/6.jpg" alt="thum1">
-                                            </div>
-                                            <h3 class="portfolio-item-title">education course websites</h3>
-                                        <button type="button" class="btn view-project-btn">view project</button>
-                                        <div class="portfolio-item-details">
-                                            <div class="description">
-                                                <p>
-                                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                                                </p>
-                                            </div>
-                                            <div class="general-info">
-                                                <ul>
-                                                    <li>Created - <span>4 Dec 2020</span></li>
-                                                    <li>Technologies used - <span>Html, Css</span></li>
-                                                    <li>Role - <span>Frontend</span></li>
-                                                    <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        </div>
-                                        <!-- porfolio item end -->
-                                                            <!-- porfolio item start -->
-                    <div class="portfolio-item">
-                        <div class="portfolio-item-thumbnail">
-                            <img src="img/6.jpg" alt="thum1">
-                        </div>
-                        <h3 class="portfolio-item-title">education course websites</h3>
-                    <button type="button" class="btn view-project-btn">view project</button>
-                    <div class="portfolio-item-details">
-                        <div class="description">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam labore asperiores harum eaque non suscipit nostrum. Atque sed magni quibusdam ipsum nulla molestias at id commodi totam, ipsa enim deleniti, earum amet quas impedit laboriosam vel, accusantium possimus cum aperiam dolore excepturi autem sit. Maiores aperiam labore explicabo doloremque amet!
-                            </p>
-                        </div>
-                        <div class="general-info">
-                            <ul>
-                                <li>Created - <span>4 Dec 2020</span></li>
-                                <li>Technologies used - <span>Html, Css</span></li>
-                                <li>Role - <span>Frontend</span></li>
-                                <li>View Online - <span><a href="#" target="_blank">www.domain.com</a></span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                    <!-- porfolio item end -->
-                </div>
-            </div>
-        </section>
-        <!-- portfolio section end -->
-        <!-- contact section start -->
-        <section class="contact-section sec-padding " id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="sec-title">
-                        <h2>contact me</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="contact-form">
-                        <form>
-                            <div class="row">
-                                <div class="input-group">
-                                    <input type="text" placeholder="Name" class="input-control" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" placeholder="Email" class="input-control" required>
-                                </div>
-                                <div class="input-group">
-                                    <input type="text" placeholder="Subject" class="input-control" required>
-                                </div>
-                                <div class="input-group">
-                                    <textarea type="text" placeholder="Message" class="input-control" required></textarea>
-                                </div>
-                                <div class="submit-btn">
-                                    <button type="submit" class="btn">send message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="contact-info">
-                        <div class="contact-info-item">
-                            <h3>Email</h3>
-                            <p>example@gmail.com</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Phone</h3>
-                            <p>+94 76 991 7532</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Follow me</h3>
-                            <div class="social-links">
-                                <a href="#" target="_blank" ><i class="fab fa-facebook"></i></a>
-                                <a href="#" target="_blank" ><i class="fab fa-twitter"></i></a>
-                                <a href="#" target="_blank" ><i class="fab fa-instagram"></i></a>
-                                <a href="#" target="_blank" ><i class="fab fa-youtube"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- contact section end -->
-    </div>
-    <!-- portfolio item details popup start -->
-    <div class="portfolio-popup">
-        <div class="pp-inner">
-            <div class="pp-content">
-                <div class="pp-header">
-                    <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
-                    <div class="pp-thumbnail">
-                        <img src="img/1.jpg" alt="images">
-                    </div>
-                    <h3></h3>
-                </div>
-                <div class="pp-body">
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- portfolio item details popup end-->
-    <script src="./script.js"></script>
+		<ul class="navlist">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#service">Service</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<a href="#" class="top-btn">Download CV</a>
+	</header>
+
+	<!--------home---->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h3>Hello, I'm</h3>
+			<h1>Nirmal Prasanjith</h1>
+			<div class="autom">
+
+				<ul class="optiond">
+					<li>Frontend Developer</li>
+					<li>Web Developer</li>
+					<li>Mobile Developer</li>
+					<li>Backend Developer</li>
+				</ul>
+			</div>
+			
+			<p>I'm creative mobile and web developer, and I'm very passionate <br> and dedicated to my work.</p>
+			<div class="socialmain">
+				<a href="#"><i class='bx bxl-facebook'></i></a>
+				<a href="https://www.linkedin.com/in/prasanjithsn96"><i class='bx bxl-linkedin' ></i></a>
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="https://github.com/prasanjitha"><i class='bx bxl-github' ></i></a>
+			</div>
+			<a href="#" class="btn">About Me</a>
+		</div>
+
+		<div class="home-img">
+			<img src="img/main.png">
+		</div>
+	</section>
+	<!--------sub service---->
+	<section class="sub-service">
+		<div class="items">
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/target.svg">
+				</div>
+				<h3>Quick Delivery</h3>
+				<p>An agile process always begins with the user or customer in mind. Today, we often define user personas to illustrate different workflow roles or types of customer needs and behaviors.</p>
+			</div>
+
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/brush.svg">
+				</div>
+				<h3>High Quality</h3>
+				<p>We have identified how important testing is at the beginning of software development; however, the testing does not stop there. Quality assurance should be ever-present throughout the software development process.</p>
+			</div>
+
+			<div class="sub-box">
+				<div class="sub-img">
+					<img src="img/energy.svg">
+				</div>
+				<h3>Awesome Idea</h3>
+				<p> If you’re anything like me, you probably have a million and one ideas for software products floating around in your head. The problem is that most of us don’t know how to turn these great ideas into reality. I will share my process for developing software ideas, and hopefully, it will help you turn your great ideas into reality.</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!--------About---->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.jpg">
+		</div>
+
+		<div class="about-text">
+			<h3>I'm a Developer</h3>
+			<h2>I Can Develop Mobile & Web App You Want</h2>
+			<p>I am a dedicated fourth-year IT student at the University of Moratuwa, and passionate computer science enthusiast with a focus on programming, web, and mobile development. My goal is to create visually stunning and innovative projects.</p>
+			<p>I'm very passionate and dedicated to my work. With 2 years experience as a professional web & mobile developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+			<h4 class="con-info">Name: <span>Nirmal Prasanjith</span></h4>
+			<h4 class="con-info">Profile: <span>Software Engineer</span></h4>
+			<h4 class="con-info">Email: <span>nirmal.18@itfac.mrt.ac.lk</span></h4>
+			<h4 class="con-info">Mobile: <span>+94 70 563 0771</span></h4>
+			
+			<a href="#contact" class="btn">Hire Me</a>
+		</div>
+	</section>
+	<!--------service---->
+	<section class="service" id="service">
+		<div class="heading">
+			<h3>Service</h3>
+			<h2>What I Do For Clients</h2>
+			<p>These are some services I can help you with</p>
+		</div>
+
+		<div class="service-content">
+			<div class="row">
+				<div class="s s-one">
+					<img src="img/web.png">
+				</div>
+				<h3>Web Development</h3>
+				<p>Complete development of web sites and applications based on your requirements.</p>
+			</div>
+
+			<div class="row">
+				<div class="s s-tow">
+					<img src="img/backend.png">
+				</div>
+				<h3>Backend Development</h3>
+				<p>Server-side scripting and database management to API design and integration</p>
+			</div>
+
+			<div class="row">
+				<div class="s s-three">
+					<img src="img/mobile.png">
+				</div>
+				<h3>Mobile App Development</h3>
+				<p>Custom mobile app development for iOS and Android.</p>
+			</div>
+
+		</div>
+	</section>
+	<!--------portfolio---->
+	<section class="portfolio" id="portfolio">
+		<div class="heading">
+			<h3>Portfolio</h3>
+			<h2>My Amazing Work</h2>
+			<p>Some projects that I have done currently</p>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="col">
+				<img src="img/work1.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
+
+			<div class="col">
+				<img src="img/work2.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
+
+			<div class="col">
+				<img src="img/work3.jpg">
+				<div class="layer">
+					<h3>Web Design</h3>
+					<h5>Popup</h5>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--------contact---->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="center">
+				<h3>Let's talk about everything</h3>
+			</div>
+
+			<div class="action">
+				<div class="social">
+					<a href="#"><i class='bx bxl-facebook'></i></a>
+					<a href="https://www.linkedin.com/in/prasanjithsn96"><i class='bx bxl-linkedin' ></i></a>
+					<a href="#"><i class='bx bxl-twitter' ></i></a>
+					<a href="https://github.com/prasanjitha"><i class='bx bxl-github' ></i></a>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!--------Link to js---->
+	<script type="text/javascript" src="script.js"></script>
+	
 </body>
 </html>
